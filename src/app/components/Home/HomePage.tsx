@@ -35,7 +35,7 @@ export default function HomePage() {
 
   return (
     <div>
-      <h1>인기 영화 1위:</h1>
+      <h1>무비버스</h1>
       <p>{movieTitle || "로딩 중 ..."}</p>
     </div>
   );
