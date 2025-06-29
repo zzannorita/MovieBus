@@ -7,7 +7,7 @@ export type Movie = {
 export type MovieResponse = {
   results: Movie[];
 };
-//test
+
 // 인기 영화
 export async function fetchPopularMovies() {
   const res = await fetch(`${BASE_URL}/movie/popular?api_key=${API_KEY}`);
